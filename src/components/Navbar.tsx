@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Logo */}
         <a 
           href="#" 
-          className="font-playfair text-2xl font-bold text-navy"
+          className="font-playfair text-2xl font-bold text-blue-600"
         >
           LENS OPTIQUE
         </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <a
               key={item.key}
               href={item.href}
-              className="font-medium text-navy hover:text-gold transition-all"
+              className="font-medium text-navy hover:text-blue-600 transition-all"
             >
               {t(item.key)}
             </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <a
                 key={item.key}
                 href={item.href}
-                className="font-medium text-navy hover:text-gold transition-all py-2"
+                className="font-medium text-navy hover:text-blue-600 transition-all py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t(item.key)}
