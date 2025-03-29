@@ -27,7 +27,7 @@ const AboutSection = () => {
   ];
   
   const stats = [
-    { value: '15+', label: t('about.experience'), icon: <Clock className="h-6 w-6 text-blue-500" /> },
+    { value: '5+', label: t('about.experience'), icon: <Clock className="h-6 w-6 text-blue-500" /> },
     { value: '50k+', label: t('about.customers'), icon: <Users className="h-6 w-6 text-blue-500" /> },
     { value: '12', label: t('about.awards'), icon: <Award className="h-6 w-6 text-blue-500" /> }
   ];

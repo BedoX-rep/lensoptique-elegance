@@ -7,6 +7,7 @@ import DigitalServices from '../components/DigitalServices';
 import VirtualTryOn from '../components/VirtualTryOn';
 import AboutSection from '../components/AboutSection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import StoreLocationSection from '../components/StoreLocationSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
@@ -19,6 +20,7 @@ const Index = () => {
       <FeaturedProducts />
       <VirtualTryOn />
       <AboutSection />
+      <StoreLocationSection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />
